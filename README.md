@@ -1,3 +1,6 @@
+## Introduce
+ouzicode-admimn is based on [vue](https://github.com/vuejs/vue) and [element-ui](https://github.com/ElemeFE/element) and [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+
 ## Features
 
 ```
