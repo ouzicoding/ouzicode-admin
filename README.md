@@ -5,16 +5,21 @@ ouzicode-admin is based on [vue](https://github.com/vuejs/vue) and [element-ui](
 ## Getting started
 
 ```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/PanJiaChen/ouzicode-admin.git
 
-# enter the project directory
-cd vue-element-admin
+cd ouzicode-admin
 
-# install dependency
 npm install
 
-# develop
+  可能出现的报错：
+  gyp报错：
+  npm install node-gyp -g
+  sass报错（依赖于python）:  
+  npm install node-sass -g
+  mac 报xcrun错误：
+  xcode-select --install
+
+
 npm run dev
 ```
 
@@ -46,7 +51,6 @@ npm run lint
 npm run lint -- --fix
 ```
 
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
 
 
 ## Features
